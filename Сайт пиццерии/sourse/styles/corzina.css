@@ -1,0 +1,385 @@
+.corz {
+    width: 5%;
+    
+    
+    /* margin-top: 580px;
+    margin-left: 1370px; */
+    
+    position: fixed;
+    bottom: 2%;
+    right: 4%;
+    cursor: pointer;
+}
+
+.corz :hover {
+    background-color: rgb(209, 97, 17);
+}
+
+.open-corzina-btn {
+    /* width: 85px; */
+    width: 100%;
+    height: 45px;
+    border: 150px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 20px;
+    font-size: 220%;
+    margin-left: 12px;
+    cursor: pointer;
+    
+    /* bottom: -80%;
+    right: -80%; */
+    
+    padding: 0px 7px;
+}
+
+
+
+.corzina {
+    position: fixed;
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(0, 0, 0, .3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.my-corzina-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    /* margin-right: 500px;
+    margin-top: 320px; */
+
+    right: 30%;
+    top: 45%;
+
+    padding: 15px;
+    border: none;
+    background-color: rgb(244, 244, 244, 0);
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.corzina-box {
+    position: absolute;
+
+    width: 30%;
+
+    overflow-x: hidden;
+    top: 0px;
+    right: 0;
+
+
+    height: 100%;
+
+
+    padding: 0px 0;
+
+    background-color: rgb(233, 233, 233);
+    box-shadow: 10px 10px 40px rgb(20, 20, 20);
+
+}
+
+.seriy {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+#corzina-img {
+    width: 20%;
+}
+
+
+
+
+.none {
+    display: none;
+
+}
+
+.all-info {
+
+    position: absolute;
+
+    height: 25%;
+    margin-bottom: 0px;
+    bottom: 0;
+    width: 30%;
+    right: 0px;
+
+    background-color: white;
+    padding-top: 15px;
+}
+
+#cart-total {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(226, 226, 233);
+}
+
+
+.form {
+    width: 80%;
+    font-size: 25px;
+    margin-inline-end: auto;
+    background-color: rgb(255, 105, 0);
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    color: white;
+
+
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    border: none;
+    margin-top: 5%;
+    height: 48px;
+    /* padding: 12px 24px; */
+    font-size: 16px;
+
+}
+
+.form a:hover {
+    border-radius: 50px;
+    background-color: red;
+}
+
+.form a:active {
+    border-radius: 50px;
+    background-color: rgb(37, 0, 0);
+}
+
+.zakaz {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.eee {
+    font-size: 0px;
+}
+
+.abobus {
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.amogus {
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    margin-top: -20px;
+    font-weight: 350;
+    font-size: 55px;
+}
+
+.my-corzina-close-btn:hover {
+    color: green;
+}
+
+.my-corzina-close-btn:active {
+    color: brown;
+}
+
+.corzina.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.corzina-box img {
+    float: left;
+    width: 250px;
+}
+
+.corzina-box .btn {
+    margin-top: 50px;
+}
+
+
+
+
+.corzina-tovar {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.tovar {
+
+    width: 100%;
+    margin-top: 15px;
+
+
+
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+.aaa {
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-top: 5px;
+    font-size: 130%;
+
+    /* border-bottom: solid;
+border-width: 1px; */
+}
+
+.ddd {
+    border-top: solid;
+    border-width: 1px;
+
+
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-bottom: 8px;
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opisancorz {
+    position: relative;
+    display: grid;
+    justify-content: space-between;
+
+    /* font-size: 100%; */
+}
+
+.price-corzina {
+    font-size: 80%;
+    font-weight: 540;
+    margin-left: 5px;
+}
+
+.bulu {
+
+    position: absolute;
+
+    right: -0%;
+    top: -0%;
+
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+    font-weight: 150;
+
+    text-decoration: none;
+}
+
+
+.plus-minus {
+    display: flex;
+    width: 20%;
+    border-radius: 15px;
+    background-color: rgb(184, 184, 184);
+    border: none;
+    margin-left: 120px;
+    margin-right: 15px;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.minus {
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    color: rgb(0, 0, 0);
+
+    /* background-color: rgb(184, 184, 184); */
+}
+
+.plus {
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(184, 184, 184); */
+}
+
+
+
+.cart-total {
+    position: sticky;
+    display: block;
+    margin-top: 30px;
+}
+
+.pusto {
+    font-size: 220%;
+    border: black;
+    border: inset;
+ margin-left: 1%;
+}
+
+.pusto {
+    position: absolute;
+    border: none;
+    top: 140px;
+    left: 80px;
+    font-weight: 5555;
+}
+
+
+.pusto img {
+    margin-bottom: 30px;
+    width: 90%;
+    /* margin-left: -15%; */
+}
+
+
+.tovarov {
+
+
+    top: 0px;
+    font-size: 25px;
+    font-weight: 540;
+    padding-top: 10px;
+    padding-left: 8%;
+    height: 5%;
+}
+
+
+
+
+.basket {
+    text-align: center;
+  width: 70%;
+
+}
